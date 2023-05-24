@@ -1,0 +1,25 @@
+.textcolor{
+    color: blueviolet;
+    font-size: large;
+}
+button{
+
+    background-color: blueviolet;
+    border: blueviolet;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+}
+.content{
+    background-color: dodgerblue;
+    /* width: 100vw; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    border-radius: 5px;
+}
