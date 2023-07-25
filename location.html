@@ -9,35 +9,112 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="m-3 p-2">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> -->
+      <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+    <header class="p-3" id="header">
         <div class="row">
             <div class="col-4">
                 <strong>Real </strong><span class="textcolor">Estate</span>
             </div>
-            <div class="col-4 ">
-                <div class="row">
-                    <div class="col-4">Feature</div>
-                    <div class="col-4">About</div>
-                    <div class="col-4">Contact</div>
-                </div>
+            <div class="col-4 " style="text-align: center;">
+                    <li><a href="#header"><div class="nav-text col-4">Home</div></a></li>
+                    <li><a href="#about"><div class="nav-text col-4">About</div></a></li>
+                    <li><a href="#"><div class="nav-text col-4">Privary</div></a></li>
             </div>
             <div class="col-4">
-                <button style="float: right;">Contact</button>
+                <a href="#contact"><button style="float: right;">Contact</button></a>
             </div>
         </div>
     </header>
+    <nav class="p-3">
+        <div class="text-navbar">
+            <strong>Real </strong><span class="textcolor">Estate</span>
+        </div>
+        <div class="icon-menu-navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </div>
+        <div class="menu">
+            <a href="#header"><div class="texteMenu">Home</div></a>
+            <a href="#about"> <div class="texteMenu">About</div></a>
+            <a href="#"><div class="texteMenu">Privary</div></a>
+            <a href="#contact"><div class="texteMenu"><button>Contact</button></div></a>
+        </div>
+    </nav>
     <div class="content m-3 p-2">
-       <div class="row w-75 bg-white p-2">
-            <div class="col d-flex flex-column bg-success h-25 justify-content-center">
+       <div class="row w-75 p-2">
+            <div class="col d-flex flex-column h-25 justify-content-center">
                 Location <span>US</span>
             </div>
-            <div class="col d-flex flex-column bg-info h-25 justify-content-center">
+            <div class="col d-flex flex-column h-25 justify-content-center">
                 Property <span>House/Appartment</span>
             </div>
-            <div class="col d-flex flex-column bg-danger h-25 justify-content-center">
+            <div class="col d-flex flex-column h-25 justify-content-center">
                 Max price <span>10,000</span>
             </div>
-            <div class="col d-flex-end flex-column bg-secondary h-25 justify-content-center">
+            <div class="col d-flex-end flex-column h-25 justify-content-center">
                 <button style="float: right; margin-top: 10px;">Search</button>
             </div>
        </div>
@@ -52,51 +129,241 @@
     </div>
     <div class="bloc-images m-3 p-2">
         <div class="row">
-            <div class="col-3">
-                <img src="css/images/img-villa15.jpg" alt="" width="300px" height="200px">
-                <h5>$111,000</h5>
+            <div class="container col-3">
+                    <img src="css/images/img-villa15.jpg" alt="" class="img-hotel">
+                    <div class="col">
+                        <span class="petit-text">5 Berd</span>
+                        <span class="petit-text">3 Beth</span>
+                        <span class="petit-text">1 Gar</span>
+                    </div>
+                    <br>
+                    <h6>$111,000</h6>
+                    <span class="localisation">Philadelphia, Pennsylvania, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa4.JPG" alt="" width="300px" height="200px">
-                <h5>$90,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa4.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">3 Berd</span>
+                    <span class="petit-text">3 Beth</span>
+                    <span class="petit-text">2 Gar</span>
+                </div>
+                 <br>
+                <h6>$90,000</h6>
+                <span class="localisation">Milwaukee, Wisconsin, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa2.JPG" alt="" width="300px" height="200px">
-                <h5>$150,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa2.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">4 Berd</span>
+                    <span class="petit-text">2 Beth</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$150,000</h6>
+                <span class="localisation">Miami, Florida, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa7.JPG" alt="" width="300px" height="200px">
-                <h5>$80,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa7.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">6 Berd</span>
+                    <span class="petit-text">4 Beth</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$80,000</h6>
+                <span class="localisation">San Francisco, California, US</span>
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-                <img src="css/images/img-villa11.JPG" alt="" width="300px" height="200px">
-                <h5>150,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa11.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">6 Berd</span>
+                    <span class="petit-text">4 Beth</span>
+                    <span class="petit-text">2 Gar</span>
+                </div>
+                <br>
+                <h6>150,000</h6>
+                <span class="localisation">Houston, Texas, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa3.JPG" alt="" width="300px" height="200px">
-                <h5>$100,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa3.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">4 Berd</span>
+                    <span class="petit-text">2 Beth</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$100,000</h6>
+                <span class="localisation">Phoenix, Arizona, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa14.JPG" alt="" width="300px" height="200px">
-                <h5>$70,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa14.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">4 Berd</span>
+                    <span class="petit-text">3 Beth</span>
+                    <span class="petit-text">2 Gar</span>
+                </div>
+                <br>
+                <h6>$70,000</h6>
+                <span class="localisation">Waterloo, Iowa, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa8.JPG" alt="" width="300px" height="200px">
-                <h5>$55,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa8.JPG" alt="" class="img-hotel">  
+                <div class="col">
+                    <span class="petit-text">8 Berd</span>
+                    <span class="petit-text">3 Beth</span>
+                    <span class="petit-text">2 Gar</span>
+                </div>
+                <br>
+                <h6>$55,000</h6>
+                <span class="localisation">Las Vegas, Nevada, US</span>
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-                <img src="css/images/img-villa10.JPG" alt="" width="300px" height="200px">
-                <h5>$68,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa10.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">5 Berd</span>
+                    <span class="petit-text">4 Beth</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$68,000</h6>
+                <span class="localisation">Miami, Florida, US</span>
             </div>
-            <div class="col-3">
-                <img src="css/images/img-villa6.JPG" alt="" width="300px" height="200px">
-                <h5>$48,000</h5>
+            <div class="container col-3">
+                <img src="css/images/img-villa6.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">6 Berd</span>
+                    <span class="petit-text">4 Beth</span>
+                    <span class="petit-text">3 Gar</span>
+                </div>
+                <br>
+                <h6>$280,000</h6>
+                <span class="localisation">Los Angeles, California, US</span>
+            </div>
+            <div class="container col-3">
+                <img src="css/images/img-villa9.JPG" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">2 Berd</span>
+                    <span class="petit-text">2 Beth</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$68,000</h6>
+                <span class="localisation">Los Angeles, California, US</span>
+            </div>
+            <div class="container col-3">
+                <img src="css/images/img-villa16.jpg" alt="" class="img-hotel">
+                <div class="col">
+                    <span class="petit-text">3 Berd</span>
+                    <span class="petit-text">2 Bath</span>
+                    <span class="petit-text">1 Gar</span>
+                </div>
+                <br>
+                <h6>$48,000</h6>
+                <span class="localisation">New York City, New York, US</span>
             </div>
         </div>
     </div>
+    <br><br>
+    <div class="bloc-about-us m-3 p-2" id="about">
+        <div class="bloc-button">
+            <button>About Us</button>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="about col-6 d-flex">
+                <div class="row">
+                    <div class="card">ok</div>
+                    <div class="card">ok</div>
+                </div>
+                <div class="row">
+                    <div class="card">ok</div>
+                    <div class="card">ok</div>
+                </div>
+            </div>
+            <div class="about col-6 p-2">
+                <h2>Know<span class="textcolor-gras">About Us</span></h2>
+                <br>
+                <h6 class="petit-text">
+                   Hi there we are Mark,
+                    And we love to create beautiful and efficient websites for my customers. 
+                    we love going through the entire process with the customer from concept, 
+                    to design and then development and launch
+                </h6>
+                <br>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact details</h2><br>
+        <h6 class="petit-text">For any type of online projet please don't hesite to get in touch with me. The fastest way is to send</h6>
+        <h6 class="petit-text">me your message using the following email 
+            <a href="mailto:nathankakama18@gmail.com"><span class="textcolor" style="font-size: 15px;">nathankakama18@gmail.com</span></a>
+        </h6><br><br>
+        <input type="text" class="form-control" placeholder="Name" style="width: 70%;"><br>
+        <input type="mail" class="form-control" placeholder="Email" style="width: 70%;"><br>
+        <textarea name="textarea" class="form-control" cols="30" rows="10" placeholder="Projet details" style="width: 70%;"></textarea><br><br>
+            <div class="button-form">
+                <a href="mailto:nathankakama18@mail.com">
+                    <button>Submit</button>
+                </a>
+            </div>
+        <!-- </a> -->
+    </div>
+    <footer>
+        <div class="row">
+            <h3>Real Estate</h3>
+        </div>
+        <div class="row">
+            <h6>For more new contact us on media social</h6>
+            <!-- <img src="twitter-icon.png" alt=""> -->
+        </div><br>
+        <div class="col">
+            <li>
+                <a href="#">
+                <!-- <div class="media-social"> -->
+                    <img src="css/images/facebooklogo.PNG" alt="" style="border-radius: 30px;width: 40px;">
+                <!-- </div> -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- <div class="media-social"> -->
+                        <img src="css/images/snaplogo.PNG" alt="" style="border-radius: 30px;width: 40px;">
+                    <!-- </div> -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- <div class="media-social"> -->
+                        <img src="css/images/youtubelogo.PNG" alt="" style="height: 32px;width: 40px;">
+                    <!-- </div> -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- <div class="media-social"> -->
+                        <img src="css/images/instagramlogo.PNG" alt="" style="border-radius: 30px;width: 40px;">
+                    <!-- </div> -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="media-social" style="background-color: white; width: 40px; border-radius: 30px;padding: 5px;">
+                        <img src="css/images/tiktok.png" alt="" style="width: 30px;">
+                    </div>
+                </a>
+            </li>
+        <!-- </div> -->
+        <br><br><br>
+        <div class="row">
+            <p class="petit-text" style="text-align: center; margin-top: 50px;">Copyright © Tana</p>
+        </div> 
+    </footer>
 </body>
+<script src="js/script.js"></script>
 </html>
